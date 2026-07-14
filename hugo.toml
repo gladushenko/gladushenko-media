@@ -1,0 +1,4 @@
+baseURL = ''
+locale = 'en-us'
+title = 'Hugo Notecard Project'
+theme = "hugo-theme-notecard"

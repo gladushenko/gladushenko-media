@@ -1,0 +1,56 @@
+# Pages placed under these sections will be shown on homepage.
+mainSections = ["posts"]
+# Output page's full content in RSS.
+rssFullContent = true
+favicon        = "img/favicon.png"
+
+# Accepted values: "default", "lastmod"
+# default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
+# lastmod = sort by last modified date, in descending order
+SortBy              = "default"
+
+[footer]
+    since      = 2026
+    customText = ""
+
+[dateFormat]
+    published   = "02.01.2006"
+    lastUpdated = "02.01.2006"
+
+[sidebar]
+    subtitle = "Card-style Hugo theme for technical notes."
+    avatar   = "img/avatar.png"
+
+[article]
+    headingAnchor = false
+    math          = false
+    readingTime   = true
+
+    [article.license]
+        enabled = false
+        default = ""
+
+[widgets]
+    homepage = [
+        { type = "search" },
+    ]
+    left = [
+        { type = "categories", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 10 } },
+    ]
+    page = [{ type = "toc" }]
+
+[opengraph.twitter]
+    site = ""
+    card = "summary_large_image"
+
+[colorScheme]
+    toggle  = true
+    default = "auto"
+
+## Comments
+[comments]
+    enabled  = false
+    provider = "disqus"
+
+    # Copy the configurations you need from the theme defaults and paste them here.

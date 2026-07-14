@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-notecard"]
+	path = themes/hugo-theme-notecard
+	url = git@github.com:gladushenko/hugo-theme-notecard.git
